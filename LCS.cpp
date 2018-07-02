@@ -2,9 +2,9 @@
 #include<string.h>
 using namespace std;
 int LCS[100][100],arrow[100][100];
-	char str1[]="taggtcac";
-	char str2[]="acgatagc";
-	char str[100];
+	char str1[]="taggtcac";//Give first string here.
+	char str2[]="acgatagc";//Second string here.
+	char str[100];// This is for storing matching string only.
 void printLCS(int m ,int n)
 {
 	static int a=0;
